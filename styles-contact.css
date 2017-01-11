@@ -18,7 +18,7 @@
 
 .navbarlist li{
 /*	Floating left puts all of the boxes on the same line*/
-	float: right;;
+	float: right;
 }
 
 .navbarlist li a, .dropbutton{
@@ -64,8 +64,6 @@
 	background-color: darkgrey;
 }
 
-/*Content of the page begins here*/
-
 .spacer{
 /*	Padding of the links + font size */
 	padding-bottom: 77px;
@@ -82,30 +80,40 @@
 	margin-top: 25px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 1000px;
+	padding-left: 20px;
+	width: 900px;
 }
 #title{
 	text-align: center;
 	font-size: 36px;
+	margin-bottom: 75px;
 }
-#frontpage-image{
+#contact-info, #social-media{
+	font-size: 18px;
+	color: grey;
+}
+#contact-info a{
+	text-decoration: none;
+	color: darkred;
 }
 
-.infobar{
-	padding-top: 100px;
-	padding-bottom: 150px;
+#social-media{
+	margin-top: 20px;
+	text-align: center;
 }
-.infobarlist{
+.mediabarlist{
 	margin-top: 5px;
 	list-style-type: none;
 	text-align: center;
 }
-.infobarlist img{
-	padding: 30px 30px 30px 30px;
+.mediabarlist img{
+	width: 51.2px;
+	height: 51.2px;
 }
-#testimonials{
-	height: 208px;
-}
-.infobarlist li{
+.mediabarlist li{
 	display: inline-block;
+}
+#fb-icon, #youtube-icon{
+	width: 53px;
+	height: 53px;
 }
