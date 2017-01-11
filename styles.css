@@ -27,8 +27,8 @@
 	text-decoration: none;
 	color: black;
 	text-align: center;
-	padding: 18px 20px;
-	font-size: 16px;
+	padding: 30px; 20px;
+	font-size: 14px;
 }
 
 .navbarlist li a:hover, .dropdown:hover{
@@ -65,10 +65,17 @@
 }
 
 .spacer{
-	padding-bottom: 56px;
+/*	Padding of the links + font size */
+	padding-bottom: 75px;
 }
-
+#logo{
+	position: absolute;
+/*	float: left;*/
+	width: 75px;
+	height: 75px;
+	margin-left: 50px;
+	margin-top: 1px;
+}
 h1{
-	color: blue;
 }
 

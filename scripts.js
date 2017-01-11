@@ -7,13 +7,4 @@ $(function() {
 			$(this).addClass("active");
 		}
 	});	
-	
-	$('.navbarlist li').on('mouseover click', function(){
-		$('h1').css('color', 'green');			
-	});
-	
-	$('.navbarlist li').on('mouseout', function(){
-		$('h1').css('color', 'blue');
-
-	});
 });
