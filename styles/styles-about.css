@@ -88,32 +88,25 @@
 	font-size: 36px;
 	margin-bottom: 75px;
 }
-#contact-info, #social-media{
-	font-size: 18px;
+#cyc-video{
+	margin: 0px auto;
+	display: block;
+	padding-bottom: 40px;
+}
+#about{
 	color: grey;
+	padding: 20px 0px 20px 0px;
 }
-#contact-info a{
-	text-decoration: none;
+#activities-list{
+	color: grey;
+	padding-left: 40px;
+}
+p a{
 	color: darkred;
+	text-decoration: none;
 }
-
-#social-media{
-	margin-top: 20px;
-	text-align: center;
-}
-.mediabarlist{
-	margin-top: 5px;
-	list-style-type: none;
-	text-align: center;
-}
-.mediabarlist img{
-	width: 51.2px;
-	height: 51.2px;
-}
-.mediabarlist li{
-	display: inline-block;
-}
-#fb-icon, #youtube-icon{
-	width: 53px;
-	height: 53px;
+#infographic{
+	margin: 0px auto;
+	display: block;
+	width: 1000px;
 }

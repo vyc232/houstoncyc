@@ -18,7 +18,7 @@
 
 .navbarlist li{
 /*	Floating left puts all of the boxes on the same line*/
-	float: right;
+	float: right;;
 }
 
 .navbarlist li a, .dropbutton{
@@ -64,6 +64,8 @@
 	background-color: darkgrey;
 }
 
+/*Content of the page begins here*/
+
 .spacer{
 /*	Padding of the links + font size */
 	padding-bottom: 77px;
@@ -77,43 +79,42 @@
 	margin-top: 1px;
 }
 .content{
-	margin-top: 25px;
+	margin-top: 125px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 20px;
 	width: 1000px;
 }
-#title{
-	text-align: center;
-	font-size: 36px;
-	margin-bottom: 75px;
-}
-#contact-info, #social-media{
-	font-size: 18px;
+p{
 	color: grey;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
-#contact-info a{
+p a{
 	text-decoration: none;
 	color: darkred;
 }
 
-#social-media{
-	margin-top: 20px;
-	text-align: center;
+#help-list1, #help-list2, #goals-list{
+	margin-left: 40px;
+	color: grey;
 }
-.mediabarlist{
-	margin-top: 5px;
-	list-style-type: none;
-	text-align: center;
+#help-list1{
+	margin-bottom: 20px;
 }
-.mediabarlist img{
-	width: 51.2px;
-	height: 51.2px;
+#white-space{
+	padding: 40px 0px 40px 0px;
 }
-.mediabarlist li{
-	display: inline-block;
+#donate-button{
+	margin: 0px auto;
+	width: 80px;
+	background-color: darkred;
+	border:none;
+	display: block;
 }
-#fb-icon, #youtube-icon{
-	width: 53px;
-	height: 53px;
+#donate-button a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	padding: 10px;
 }
